@@ -1,6 +1,6 @@
 # 2DAM_Survive_all_you_can
-- Author: Jose Antonio Duarte Pérez
-- Description:
+- **Author**: Jose Antonio Duarte Pérez
+- **Description**: <br/>
 Its about a character that has to kill all enemies that trys to kill him. 
 There are enemies with differents habilities, and a Top list of players, with their score.
 
