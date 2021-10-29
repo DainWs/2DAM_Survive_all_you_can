@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fps">
+        <item>"15"</item>
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"90"</item>
+    </array>
+
+    <array name="time">
+        <item>@string/one_time</item>
+        <item>@string/two_time</item>
+        <item>@string/three_time</item>
+        <item>@string/four_time</item>
+    </array>
+</resources>

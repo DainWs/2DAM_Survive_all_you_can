@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DWs Survive all you can</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_start_game">Play</string>
+    <string name="settings">Settings</string>
+    <string name="settings_fps_tittle">FPS</string>
+    <string name="settings_time_tittle">Time in game</string>
+    <string name="no_sensor_detected">No sensor detected</string>
+    <string name="left_side">Left_side</string>
+    <string name="right_side">right_side</string>
+    <string name="username_text">Username</string>
+    <string name="save_button">Save</string>
+    <string name="game_over">Game Over</string>
+    <string name="points">Coins : +</string>
+    <string name="one_time">10  Seconds</string>
+    <string name="two_time">30  Seconds</string>
+    <string name="three_time">1  Minutes</string>
+    <string name="four_time">2  Minutes</string>
+    <string name="time_remaining_countdown_text">Time Remaining</string>
+    <string name="coins">Coins</string>
+    <string name="pause_button">pause button</string>
+    <string name="game_resume_button">Resume</string>
+    <string name="game_exit_button">Exit</string>
+    <string name="pause_menu_tittle">Pause</string>
+    <string name="game_top_btn">Top</string>
+    <string name="top_list">Top List</string>
+</resources>

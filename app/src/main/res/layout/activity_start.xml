@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/scene_start_background2"
+    android:foregroundGravity="fill"
+    android:minWidth="50dp"
+    android:minHeight="50dp">
+
+    <ImageButton
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/settings"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_config" />
+
+    <ImageButton
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/oval"
+        android:contentDescription="@string/settings"
+        android:scaleType="centerCrop"
+        android:src="@drawable/google_favicon"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/settings_button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/settings_button" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/menu"
+        android:minWidth="200dp"
+        android:minHeight="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settings_button">
+
+        <Button
+            android:id="@+id/start_game_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/drawable_menu_button"
+            android:drawableStart="@mipmap/ic_play"
+            android:drawableLeft="@mipmap/ic_play"
+            android:minWidth="150dp"
+            android:minHeight="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/menu_start_game"
+            android:textColor="@color/colorBrown"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/top_game_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/drawable_menu_button"
+            android:drawableStart="@drawable/ic_top_icon"
+            android:drawableLeft="@drawable/ic_top_icon"
+            android:minWidth="150dp"
+            android:minHeight="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/game_top_btn"
+            android:textColor="@color/colorBrown"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/coins_field"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/drawable_menu_button"
+            android:drawableLeft="@drawable/ic_coins"
+            android:gravity="center"
+            android:minWidth="150dp"
+            android:minHeight="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/colorBrown"
+            android:textSize="24sp"
+            tools:text="100203010310" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

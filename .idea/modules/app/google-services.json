@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "125021457890",
+    "firebase_url": "https://dws-survive-all-you-can-default-rtdb.firebaseio.com",
+    "project_id": "dws-survive-all-you-can",
+    "storage_bucket": "dws-survive-all-you-can.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125021457890:android:39b8aad408cb18ab9f3dbb",
+        "android_client_info": {
+          "package_name": "com.joseduarte.dwssurviveallyoucan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125021457890-81puose4u48pd5du82gffadb4t0d8hm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joseduarte.dwssurviveallyoucan",
+            "certificate_hash": "0931d6d46ffde60c974ab71bd46fc20a2f175f2a"
+          }
+        },
+        {
+          "client_id": "125021457890-lovnbjrsnbomk47dqhcrrbrh2h4l79sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEloDaXMYJq0GpU6n4ew9eeTln4QrZGuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125021457890-lovnbjrsnbomk47dqhcrrbrh2h4l79sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
