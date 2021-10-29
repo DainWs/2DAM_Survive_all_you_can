@@ -9,10 +9,10 @@ We also have a sign in method with Google, allowing you to be on the top list.
 You can see here some images of the **game UI**.
 
 ## Main Screen
-![Main Screen]()
+![Main Screen](https://github.com/DainWs/2DAM_Survive_all_you_can/blob/master/documentation/MainScreen.png?raw=true)
 
 ## Options Screen
-![Options Screen]()
+![Options Screen](https://github.com/DainWs/2DAM_Survive_all_you_can/blob/master/documentation/OptionSreen.png?raw=true)
 
 ## Game Screen
-![Game Screen]()
+![Game Screen](https://github.com/DainWs/2DAM_Survive_all_you_can/blob/master/documentation/GameScreen.png?raw=true)
